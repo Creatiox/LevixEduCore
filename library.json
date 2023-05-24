@@ -1,0 +1,30 @@
+{
+  "name": "NOMBRE",
+  "version": "1.0.0",
+  "description": "Descripción de lo que hace.",
+  "authors": [
+    {
+      "name": "Nombre1 Apellido1",
+      "email": "nombre1.apellido1@creatiox.com",
+      "url": "https://github.com/nick1",
+      "maintainer": true
+    },
+    {
+      "name": "Nombre2 Apellido2",
+      "email": "nombre2.apellido2@creatiox.com",
+      "url": "https://nombre2-apellido2.com/contacto"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Creatiox/repositorio.git"
+  },
+  "dependencies": {
+    "otra-libreria": "https://github.com/Creatiox/otro-repositorio#v1.0.0"
+  },
+  "keywords": "keyword1, keyword2, etc",
+  "license": "GPL-3.0-or-later",
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "headers": "archivo.h"
+}
