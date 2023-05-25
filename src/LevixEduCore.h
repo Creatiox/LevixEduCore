@@ -45,7 +45,14 @@ class LevixEduCore {
    */
   virtual esp_sleep_wakeup_cause_t powerGetWakeupReason();
 
-  // TODO agregar opciones para despertar con gpios
+  /**
+   * @brief Dormir Levix por un período de tiempo determinado. Apaga todos los periféricos
+   * innecesarios para ahorrar el máximo de energía posible durante este modo.
+   * 
+   * @param seconds Segundos duración modo suspensión
+   * @return true OK (esta función no retorna)
+   * @return false No se pudo dormir el dispositivo
+   */
   virtual bool powerTimedDeepSleep(uint32_t seconds);
 
   /**
