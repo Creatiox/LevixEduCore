@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  <b>Librería base para placas con Levix Edu Core</b>
+  <b>Librería base para placas Levix Edu con Levix Edu Core</b>
 </p>
 
 ---
